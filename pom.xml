@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <description>A Maven Archetype for creating a Java 17 project using Junit5 and Mockito</description>
+  <name>java17-junit5-quickstart</name>
+
+  <groupId>com.schotanus.maven.archetype</groupId>
+  <artifactId>java17-junit5-mockito</artifactId>
+  <version>1.0.0</version>
+  <packaging>maven-archetype</packaging>
+ 
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.1.1</version>
+      </extension>
+    </extensions>
+  </build>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
