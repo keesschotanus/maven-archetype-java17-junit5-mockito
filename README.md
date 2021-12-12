@@ -22,7 +22,7 @@ and then entering values for the different properties, or non interactively by e
 ```bash
 mvn archetype:generate \
   -DarchetypeGroupId=com.schotanus.maven.archetype \
-  -DarchetypeArtifactId=archetypeArtifactId=java17-junit5-mockito \
+  -DarchetypeArtifactId=java17-junit5-mockito \
   -DarchetypeVersion=1.0.0 \
   -DgroupId=your-group-id \
   -DartifactId=your-artifact-id \
@@ -34,7 +34,7 @@ For example:
 ```bash
 mvn archetype:generate \
   -DarchetypeGroupId=com.schotanus.maven.archetype \
-  -DarchetypeArtifactId=archetypeArtifactId=java17-junit5-mockito \
+  -DarchetypeArtifactId=java17-junit5-mockito \
   -DarchetypeVersion=1.0.0 \
   -DgroupId=com.schotanus \
   -DartifactId=hello-world \
