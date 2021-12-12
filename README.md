@@ -18,7 +18,7 @@ You can create your project interactively by executing:
 ```bash
 mvn archetype:generate -DarchetypeGroupId=com.schotanus.maven.archetype -DarchetypeArtifactId=java17-junit5-mockito
 ```
-and then entering values for the different properties, or inactively by executing:
+and then entering values for the different properties, or non interactively by executing:
 ```bash
 mvn archetype:generate \
   -DarchetypeGroupId=com.schotanus.maven.archetype \
@@ -29,7 +29,7 @@ mvn archetype:generate \
   -Dversion=1.0.0-SNAPSHOT \
   -DinteractiveMode=false
 ```
-where you supply all properties on the command line.
+where you replace the groupId, artifactId and version.
 For example:
 ```bash
 mvn archetype:generate \
